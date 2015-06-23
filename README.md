@@ -1,2 +1,2 @@
-# castorbox
-for the paper on the castor box results
+# fluoresencepaper
+for the summer 2015 paper on fluoresence in plastic scintillator
