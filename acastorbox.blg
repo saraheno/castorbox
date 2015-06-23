@@ -7,45 +7,45 @@ Warning--empty author in ecfa2015
 Warning--empty journal in ecfa2015
 Warning--empty author in mdliquidtile
 Warning--empty journal in mdliquidtile
-You've used 19 entries,
+You've used 20 entries,
             2937 wiz_defined-function locations,
-            818 strings with 9380 characters,
-and the built_in function-call counts, 6362 in all, are:
-= -- 626
-> -- 198
+            828 strings with 9580 characters,
+and the built_in function-call counts, 6653 in all, are:
+= -- 657
+> -- 202
 < -- 4
-+ -- 78
-- -- 59
-* -- 565
-:= -- 874
-add.period$ -- 34
-call.type$ -- 19
-change.case$ -- 24
++ -- 80
+- -- 60
+* -- 590
+:= -- 912
+add.period$ -- 36
+call.type$ -- 20
+change.case$ -- 25
 chr.to.int$ -- 3
-cite$ -- 23
-duplicate$ -- 170
-empty$ -- 668
-format.name$ -- 73
-if$ -- 1618
+cite$ -- 24
+duplicate$ -- 177
+empty$ -- 702
+format.name$ -- 74
+if$ -- 1695
 int.to.chr$ -- 0
-int.to.str$ -- 19
-missing$ -- 18
-newline$ -- 83
-num.names$ -- 19
-pop$ -- 90
+int.to.str$ -- 20
+missing$ -- 19
+newline$ -- 87
+num.names$ -- 20
+pop$ -- 93
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 371
+skip$ -- 390
 stack$ -- 0
-substring$ -- 405
-swap$ -- 62
+substring$ -- 426
+swap$ -- 65
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 4
-while$ -- 36
-width$ -- 21
-write$ -- 194
+while$ -- 38
+width$ -- 22
+write$ -- 204
 (There were 4 warnings)
