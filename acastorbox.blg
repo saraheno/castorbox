@@ -5,45 +5,45 @@ The style file: elsarticle-num.bst
 Database file #1: acastorbox.bib
 Warning--empty author in ecfa2015
 Warning--empty journal in ecfa2015
-You've used 5 entries,
+You've used 18 entries,
             2937 wiz_defined-function locations,
-            706 strings with 6434 characters,
-and the built_in function-call counts, 1536 in all, are:
-= -- 149
-> -- 44
-< -- 1
-+ -- 18
-- -- 13
-* -- 136
-:= -- 228
-add.period$ -- 8
-call.type$ -- 5
-change.case$ -- 6
-chr.to.int$ -- 0
-cite$ -- 7
-duplicate$ -- 44
-empty$ -- 162
-format.name$ -- 16
-if$ -- 386
+            816 strings with 9292 characters,
+and the built_in function-call counts, 6237 in all, are:
+= -- 619
+> -- 197
+< -- 4
++ -- 77
+- -- 59
+* -- 559
+:= -- 862
+add.period$ -- 33
+call.type$ -- 18
+change.case$ -- 23
+chr.to.int$ -- 3
+cite$ -- 20
+duplicate$ -- 165
+empty$ -- 650
+format.name$ -- 73
+if$ -- 1583
 int.to.chr$ -- 0
-int.to.str$ -- 5
-missing$ -- 4
-newline$ -- 29
-num.names$ -- 4
-pop$ -- 26
+int.to.str$ -- 18
+missing$ -- 17
+newline$ -- 80
+num.names$ -- 19
+pop$ -- 82
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 87
+skip$ -- 358
 stack$ -- 0
-substring$ -- 71
-swap$ -- 14
-text.length$ -- 1
+substring$ -- 405
+swap$ -- 62
+text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 2
-while$ -- 7
-width$ -- 6
-write$ -- 56
+while$ -- 36
+width$ -- 20
+write$ -- 189
 (There were 2 warnings)
