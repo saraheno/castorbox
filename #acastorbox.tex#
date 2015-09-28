@@ -1,0 +1,291 @@
+
+\documentclass[review]{elsarticle}
+\usepackage{color}
+\usepackage{lineno,hyperref}
+\modulolinenumbers[5]
+
+\journal{Nuclear Instruments and Methods B}
+
+%%%%%%%%%%%%%%%%%%%%%%%
+%% Elsevier bibliography styles
+%%%%%%%%%%%%%%%%%%%%%%%
+%% To change the style, put a % in front of the second line of the current style and
+%% remove the % from the second line of the style you would like to use.
+%%%%%%%%%%%%%%%%%%%%%%%
+
+%% Numbered
+%\bibliographystyle{model1-num-names}
+
+%% Numbered without titles
+%\bibliographystyle{model1a-num-names}
+
+%% Harvard
+%\bibliographystyle{model2-names.bst}\biboptions{authoryear}
+
+%% Vancouver numbered
+%\usepackage{numcompress}\bibliographystyle{model3-num-names}
+
+%% Vancouver name/year
+%\usepackage{numcompress}\bibliographystyle{model4-names}\biboptions{authoryear}
+
+%% APA style
+%\bibliographystyle{model5-names}\biboptions{authoryear}
+
+%% AMA style
+%\usepackage{numcompress}\bibliographystyle{model6-num-names}
+
+%% `Elsevier LaTeX' style
+\bibliographystyle{elsarticle-num}
+%%%%%%%%%%%%%%%%%%%%%%%
+
+\Begin{document}
+
+\begin{frontmatter}
+
+\title{Tests of the radiation hardness of scintillators in a high energy proton-proton collider environment }
+
+
+%% or include affiliations in footnotes:
+\author[umd]{Joshua Kunkle\corref{mycorrespondingauthor}}
+\cortext[mycorrespondingauthor]{Corresponding author}
+\ead{jkunkle@cern.ch}
+\author[istanbul]{Serhat Atay}
+\author[umd]{Alberto Belloni}
+\author[umd]{Jeff Calderon}
+\author[rochester]{Pawel De Barbaro}
+\author[umd]{Sarah C. Eno}
+\author[baylor]{Kenichi Hatakeyama}
+\author[umd]{Geng-Yuan Jeng}
+\author[moscow]{Alexander Kaminskiy}
+\author[rochester]{Aliko Mestvirishvili}
+\author[umd]{Julie Schnurr}
+\author[umd]{Yao Yao}
+\author[korea]{Sung Woo Youn}
+
+
+\address[umd]{Dept. Physics, U. Maryland, College Park MD 30742 USA}
+\address[korea]{Institute for Basic Science, Center for Axion and Precision Physics Research, IBS Center for Axion and Precision Physics Research
+Room 4315, Department of Physics, Natural Science Building (E6-2), KAIST,
+291 Daehak-ro, Yuseong-gu, Daejeon 305-701, South Korea}
+\address[fnal]{Fermi National Accelerator Laboratory, Batavia, IL, USA}
+\address[baylor]{Baylor University, Waco, Texas, USA}
+\address[iowa]{The University of Iowa, Iowa City, IA, USA}
+\address[rochester]{The University of Rochester, Rochester, NY, USA}
+\address[moscow]{Skobelsyn Institute of Nuclear Physics, Lomonosov Moscow, Russia}
+\address[istanbul]{Istanbul Technical University, Istanbul, Turkey}
+
+\begin{abstract}
+  Radiation damage to the attenuation length and light output
+  of scintillating materials may depend not just on the deposited energy, but also on the dose rate and the types and energies of the interacting particles.
+  We present the
+  results of measurements of the damage to several different types
+  of scintillating materials irradiated in the CMS collision hall
+  during running with a center-of-mass energy of 13 TeV at the Large Hadron Collider.  The materials received doses ranging from {\color{red} xxx} over a period of {\color{red} xxx} months.  The light output was measured at several intermediate doses.
+\end{abstract}
+
+\begin{keyword}
+organic scintillator\sep liquid scintillator\sep radiation
+hardness \sep calorimetry
+\end{keyword}
+
+\end{frontmatter}
+
+\linenumbers
+
+\section{Introduction}
+\label{sec:Introduction}
+Radiation damage to the attenuation length and light output
+of scintillating materials may depend not just on the deposited energy (dose),
+but also on the dose rate and the types and energies of the interacting particles.
+We present the
+results of measurements of the damage to several different types
+of scintillating materials irradiated in the CMS collision hall at the Large Hadron Collider (LHC) during its operation at a center-of-mass energy
+of 13 TeV during 2015.
+The materials received doses ranging from {\color{red} xxx} over a period
+of {\color{red} xxx} months.  The light output was measured at several intermediate doses.
+Irradiation in the collision hall of a running high energy
+proton-proton collider allows access to very low dose rates that
+would not be affordable at reactors, electron linacs,
+and ${\rm ^{60}Co}$ sources, with the particle type and energy
+spectrum most appropriate for those designing detectors for hadron colliders.
+
+
+In-situ tests are of particular interest, as several experiments
+have found unexpected large radiation damage in operation
+compared to expectations
+based on irradiations using reactors, linacs and ${\rm ^{60}Co}$ sources.
+In the CDF experiment, scintillators
+placed close to the
+beam line received much larger damage than expected~\cite{Giokaris1993315}.
+During the running of the LHC from its commissioning in 2009
+through 2012, the CMS
+detector was exposed to an integrated luminosity of 25 ${\rm fb^{-1}}$.  Parts of the
+CMS endcap calorimeter are estimated to have received doses of 0.1 to 0.2 Mrad~\cite{ecfa2015}.
+Studies of the radiation hardness of scintillator tiles
+prior to installation in the detector,
+using an electron linac and ${\rm ^{60}Co}$ sources,
+indicated an exponential reduction in 
+light output with accumulated dose, with a exponential constant of 
+around 7 Mrad~\cite{vasken,ByonWagner1993263}.  
+However, although the dose received by the CMS tiles was
+small compared to this number,
+significant light loss was observed~\cite{phaseiitdr}.
+Experiments using scintillator at HERA, however, saw damage
+consistent with expectations~\cite{Bohnet:87278}.
+
+One possible explanation is dose rate effects.
+Several studies have shown larger damage for the same dose at lower dose
+rate both for light self absorption before annealing
+(although after annealing the permanent damage seems to be independent of dose rate) and initial light output~\cite{sauli,34504,Wick1991472,289295,173180,173178,Giokaris1993315,Biagtan1996125}.
+
+Another possible explanation is damage that is dependent on particle
+type and energy.   Especially, interactions of high energy neutrons
+(${\rm E>10~keV}$), which through scattering with the hydrogen in the
+polymer can produce highly ionizing protons (LET), are known to
+produce a high density of radicals and cross-linking in the polymer,
+and affect mechanical properties~\cite{lee199929}.
+
+While some studies have also found little correlation between mechanical
+problems and color center formation~\cite{clough1996583}, detailed studies
+have found fast neutrons to be more damaging than photons.
+The effect of LET radiation
+on plastic scintillators was studied in detail
+in~\cite{34504,467829,Bodmann2003495,Bodmann2001299}.
+Especially~\cite{Bodmann2001299,Bodmann2003495} have 
+summaries of the chemistry involved.
+The 2001 paper~\cite{Bodmann2001299} reported results of irradiation of SCSN-81 by fast
+reactor neutrons.
+%They had problems, however, with discrepencies between the calculated and measured dose for reactor irradiations (but not for cyclotron irradiations) when the dose was calculated from the fluence using
+%kerma (kinetic energy released in matter) factors~\cite{kerma}.
+They found gammas more damaging to the dopants, but neutrons created a factor 5 more color centers for wavelengths $>$ 420\,nm.
+The 2003 paper~\cite{Bodmann2003495} looked at effects to the substrate
+for  polyvinyltoluene (BC-404) and polystyrene.
+They found neutron damage in polystyrene from fast neutrons was 4-5
+times larger for wavelengths of 420-460\,nm and in polyvinyltoluene
+a factor two more damaging.
+PVT was also found to form internal cracks after irradiation
+(oddly only mentioned in the summary).
+Doses were calculated from the fluences using
+kerma (kinetic energy released in matter) factors~\cite{kerma}.
+In this paper,
+contributions to color center formation from specific radicals
+was extracted.
+
+
+
+
+\section{Irradiation conditions}
+\label{sec:radiation}
+
+For irradiation,
+samples were placed in the CMS collision hall
+on the structure that housed the CMS CASTOR~\cite{castor}
+forward calorimeter, 14.3 m away from the CMS interaction point.
+They were held in fiber glass holders (Figure~\ref{fig:sampleholder})
+suspended in an Aluminum box (Figure~\ref{fig:hangbox}).
+Parts of the samples are as close as 22\,mm
+to the beam pipe.
+The temperature in the box {\color{red} i don't know}
+The atmosphere was  {\color{red} i don't know}
+
+\begin{figure}[!ht]
+\begin{center}
+  \includegraphics[width=0.95\textwidth]{./figures/samplemount.pdf}
+\caption{Design for fiber glass holder used for irradiations.
+}
+\label{fig:sampleholder}
+\end{center}
+\end{figure}
+
+
+\begin{figure}[!ht]
+\begin{center}
+  \includegraphics[width=0.3\textwidth]{./figures/hanging.pdf}
+\caption{Design for Aluminum box holding samples.
+}
+\label{fig:hangbox}
+\end{center}
+\end{figure}
+
+
+The dose was measured using FWT-60-00 Radiochromic dosimeters (thin films) by Far West Technology, RADMON detectors produced by CERN PPD,  and using Silicon Diodes.  The FWT dosimeters are attached directly to the scintillator samples.
+
+
+The samples were installed during June of 2015.  The samples were removed
+and measurements were made on {\color{red} put dates here}.
+
+\section{Tile designs}
+\label{sec:design}
+
+In this paper, we reports results for A six of the scintillators that were tested.
+
+Four of our tests used scintillators with embedded wavelength-shifting (WLS) fibers similar to those in the used in the CMS barrel hadron calorimeter~\cite{CMSHB}.  The dimensions of the plastic scintillator was
+10\,cm x 10\,cm x 4\,mm.
+One was made of SCSN-81, the blue-scintillating plastic by Kuraray
+used for most of the
+CMS tiles.  One used EJ-200, a blue scintillator by
+Eljen Technology similar to BC-408, the scintillator used for the
+first layer of the CMS calorimeter.  Another used EJ-200 but with
+the concentration of the first WLS dopant doubled.  The fourth
+tile used EJ-260, a green scintillator.
+SCSN-81 uses polystyrene as substrate, while EJ-200 and EJ-260
+(and BC-408) use polyvinyltoluene.
+
+The blue scintillators used 1\,mm diameter Y-11 blue-to-green
+WLS fibers from Kuraray,
+while the green used 1\,mm O-2 green-to-orange WLS fiber.
+
+Also included were two tiles make from Aluminum and filled with a scintillating liquid (EJ-309 from Eljen Technology).
+Quartz support tubes running through the liquid hold 1\,mm Y-11 WLS fibers.
+Details on the tiles can be found in~\cite{mdliquidtile}.
+
+
+\section{Measurement techniques}
+\label{sec:techniques}
+
+The light output before and after irradiation in the CMS collisions hall
+was measured using two different methods.
+
+In the primary method, the response
+of the scintillator was measured 
+using a columnated beta source ({\color{red} which?}).
+A 1\,${\rm mm^2}$ Silicon Photomultiplier (SiPM) by Zecotec~\cite{sipmmcastor} was used as the photodetector.
+The scintillator was placed in a dark box, and a clear fiber was used
+to connect it to the photodetector, outside the box.
+The resulting current was measured using a Keithley 2001 or 6487 picoameter.
+The SiPM was calibrated by plotting the dark current versus bias voltage and locating the break down voltage.  The data was taken with a bias voltage one volt above the breakdown.   The temperature was also monitored.
+
+A secondary measurement used the
+light output produced by cosmic rays.
+Scintillator-based counters above and below the irradiated tiles were used for triggering.
+No attempt was made to select minimum ionizing (mip) muons.  The muons were thus
+of low energy and produce more light than mips.
+The SiPM was used for the photodetector.  Data was recorded with a
+DRS4 Evaluation Board from the Paul Scherrer Institute with a sampling
+rate of 1 GHz.  Gain was monitored using the position of the single
+photoelectron (pe) peak from the SiPM seen in data taken with a random trigger.
+
+\section{Results}
+\label{sec:Results}
+
+
+\section{Conclusions}
+\label{sec:Conclusions}
+
+We presented results on radiation damage to scintillating materials
+in 
+
+
+\section{Acknowledgments}
+The authors would like to thank Randy Ruchti of Notre Dame for
+providing the capillaries.
+ We would like to thank the University of Maryland
+FabLab, especially {\color{red} who helped}, for help with fiber sputtering.
+This work was supported in part by U.S. Department of Energy
+Grant DESC0010072.
+
+\section*{References}
+
+\bibliography{acastorbox}
+
+\End{document}
